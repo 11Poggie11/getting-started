@@ -36,3 +36,7 @@ jobs:
             name: getting-started-github
             location: 'west europe'
             ports: '3000'
+            azure-file-volume-share-name: 'patrickstorageaccount'
+            azure-file-volume-account-name: 'patrickstorageaccount'
+            azure-file-volume-account-key: 'auapi9fr4JXcgXafBSeM3C70fhihN8CcrVIsAWPCDbFJxHWTtAlnoOgWqCoYP7cBlIHb0SwfMDB++AStWr2VJA=='
+            azure-file-volume-mount-path: '/etc/todos'
